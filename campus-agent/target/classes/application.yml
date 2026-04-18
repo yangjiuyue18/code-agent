@@ -1,0 +1,39 @@
+server:
+  port: 8080 # 后端端口
+  servlet:
+    context-path: / # 移除/api前缀，方便前端相对路径调用
+
+spring:
+  # 数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/campus_agent?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root # 替换为你的MySQL用户名
+    password: 123456 # 替换为你的MySQL密码
+  # 定时任务配置
+  task:
+    scheduling:
+      pool:
+        size: 10
+  # 静态资源配置（默认，可省略）
+  web:
+    resources:
+      static-locations: classpath:/static/
+
+# MyBatis-Plus配置
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.campus.agent.entity
+
+# 通义千问大模型配置（阿里云DashScope）
+qwen:
+  api-key: sk-7f96866a402b4c5299b02566cae88ad6
+  model: qwen3.6-plus         # 文本对话模型
+  vl-model: qwen-vl-plus      # 多模态图片理解模型（支持用户上传图片）
+
+# NeoData金融数据查询配置
+neodata:
+  token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJteWZFenA3ODNLaV9KQ3g4Vm5jM1hfaXg2alpyYjZDZjVPTWtHWk1QSTNzIn0.eyJleHAiOjE4MDc2MDg3MzcsImlhdCI6MTc3NjMwNDU1OSwiYXV0aF90aW1lIjoxNzc2MDcyNzM2LCJqdGkiOiJiNTI2MDAyNi02ODMyLTQwNDktYTBhMy01MTI2OGQ3NGRjODYiLCJpc3MiOiJodHRwczovL3d3dy5jb2RlYnVkZHkuY24vYXV0aC9yZWFsbXMvY29waWxvdCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIwMWE4OTBmYi04YjEwLTRlOTktYjBmYS03ZDBhYTRiZDE5MTYiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJjb25zb2xlIiwic2lkIjoiNjIwZGE3NDktNjVmZS00OWVmLWJhNzQtMzFiOTlhOTA4ZmFkIiwiYWNyIjoiMCIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdGx0LXJvbGVzIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgb2ZmbGluZV9hY2Nlc3MgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5pY2tuYW1lIjoi5bKB5bKBLiIsInByZWZlcnJlZF91c2VybmFtZSI6IjEzMDY4OTM4NjMwIn0.YRfBlvFW3i7Y3bzmrbF3DiXhZ4snT_6wvH8PxxX6DggKA-4rAvm5bT3ehf9kp2w2UoRmRC33VmeOfq1mmXHGTId6p7D5rKWriuO_koHJxHyW85Bze2pQ5nVOpf16hLc0YlPCGVg2RoaWvXJczkXuBSUvQHDHztAnHg687zo5LAB1hvB_K8dR7PFxQRcpC_vkQRcg5EutrcgDGn6RZBlUJml0xyso65tON4m4Z_O7Xvo4moaviPsTyfpGfC8HF6TvGLO5yTl6FvIoaLt4Lk5_9OMWzU3GzmyrHNFo7n_jIN37vpCur4RY3rTq5-HxtH4ka512NE2UpjupkuMJv60ARA
