@@ -8,17 +8,17 @@ target/
 node_modules/
 
 # IDE
-.idea/
-*.iml
-.vscode/
-*.iml
+# .idea/
+# *.iml
+# .vscode/
+# *.iml
 
 # Logs
 *.log
 
 # OS
-.DS_Store
+# .DS_Store
 Thumbs.db
 
 # WorkBuddy
-.workbuddy/
+# .workbuddy/

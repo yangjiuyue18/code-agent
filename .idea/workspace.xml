@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d841a29c-4e29-4b53-a7d2-04a33a1beb74" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="211" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CKmfpywOVkBsWIvjBmxMlGGWe8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.campus-agent [clean].executor": "Run",
+    "Maven.campus-agent [compile].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.CampusAgentApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/更改的代码/code-agent-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/linjei/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.15.0/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\linjei\\AppData\\Roaming\\JetBrains\\IntelliJIdea2026.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="CampusAgentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="campus-agent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.campus.agent.CampusAgentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\linjei\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="d841a29c-4e29-4b53-a7d2-04a33a1beb74" name="更改" comment="" />
+      <created>1776142741792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776142741792</updated>
+      <workItem from="1776142742983" duration="4970000" />
+      <workItem from="1776159587184" duration="1632000" />
+      <workItem from="1776215342974" duration="1848000" />
+      <workItem from="1776218445544" duration="1996000" />
+      <workItem from="1776220496555" duration="2685000" />
+      <workItem from="1776224148676" duration="120000" />
+      <workItem from="1776224284562" duration="321000" />
+      <workItem from="1776224622582" duration="1631000" />
+      <workItem from="1776245999636" duration="120000" />
+      <workItem from="1776246129988" duration="763000" />
+      <workItem from="1776246904720" duration="312000" />
+      <workItem from="1776247229320" duration="266000" />
+      <workItem from="1776247507267" duration="190000" />
+      <workItem from="1776302016245" duration="3000" />
+      <workItem from="1776310232309" duration="175000" />
+      <workItem from="1776339554865" duration="187000" />
+      <workItem from="1776339755606" duration="668000" />
+      <workItem from="1776343307835" duration="308000" />
+      <workItem from="1776343632555" duration="2747000" />
+      <workItem from="1776347703489" duration="900000" />
+      <workItem from="1776350367825" duration="1708000" />
+      <workItem from="1776352111013" duration="1168000" />
+      <workItem from="1776353294106" duration="713000" />
+      <workItem from="1776418782974" duration="7000" />
+      <workItem from="1776418802770" duration="510000" />
+      <workItem from="1776419332408" duration="802000" />
+      <workItem from="1776420321604" duration="5553000" />
+      <workItem from="1776426629892" duration="9000" />
+      <workItem from="1776426688958" duration="3441000" />
+      <workItem from="1776499301346" duration="669000" />
+      <workItem from="1776526678283" duration="1870000" />
+      <workItem from="1776531791197" duration="440000" />
+      <workItem from="1776533109182" duration="82000" />
+      <workItem from="1776676975081" duration="595000" />
+      <workItem from="1776677628095" duration="698000" />
+      <workItem from="1776678433042" duration="12035000" />
+      <workItem from="1776696899276" duration="173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
