@@ -1,0 +1,24 @@
+# Java
+target/
+*.class
+*.jar
+*.war
+
+# Node
+node_modules/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WorkBuddy
+.workbuddy/
